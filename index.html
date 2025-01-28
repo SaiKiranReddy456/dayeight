@@ -16,21 +16,21 @@
     <h3><center>It's quick and easy.</center></h3><hr><br>
 
         <label for="name">NAME</label><br><br>
-        <input name="name" type="text" id="name" placeholder="First name">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="name" type="text" id="name" placeholder="First name" required>&nbsp;&nbsp;&nbsp;&nbsp;
 
-        <input name="surname" type="text" id="name" placeholder="Surname"><br><br>
+        <input name="surname" type="text" id="name" placeholder="Surname" required><br><br>
 
-        <label for="dob">DATE OF BIRTH</label><br><br>
-        <input name="dob" type="text" id="dob" placeholder="DD/MM/YYYY"><br><br>
+        <label for="dob">DATE OF BIRTH</label><br><br> 
+        <input name="dob" type="text" id="dob" placeholder="DD/MM/YYYY" required><br><br>
 
         <label for="email">EMAIL</label><br><br>
-        <input name="email" type="email" id="email" placeholder="Enter Email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"><br><br>
+        <input name="email" type="email" id="email" placeholder="Enter Email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required><br><br>
 
         <label for="pwd">PASSWORD</label><br><br>
-        <input name="pwd" type="password" id="pwd" placeholder="Enter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br><br>
+        <input name="pwd" type="password" id="pwd" placeholder="Enter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br><br>
 
         <label for="pwds">CONFIRM PASSWORD</label><br><br>
-        <input name="pwds" type="password" id="pwds" placeholder="Confirm Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br><br>
+        <input name="pwds" type="password" id="pwds" placeholder="Confirm Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br><br>
 
         <center><button type="submit">Submit</button></center><br>
 
